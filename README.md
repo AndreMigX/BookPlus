@@ -3,7 +3,7 @@ Library management software developed using JavaFX and Spring
 
 # Links
 The JavaFX App can be found <a href='https://github.com/AndreMigX/BookPlus/tree/application'>here</a><br>
-The Service can be found <a href='https://github.com/AndreMigX/BookPlus/tree/application'>here</a>
+The Service can be found <a href='https://github.com/AndreMigX/BookPlus/tree/spring-service'>here</a>
 
 # Screenshots
 ![books](https://user-images.githubusercontent.com/115114976/216837842-c757e0a6-7daa-4b0d-a064-178c1d5cc2d3.png)
