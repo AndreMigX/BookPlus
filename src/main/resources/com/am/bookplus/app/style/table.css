@@ -1,0 +1,87 @@
+.table-view{
+    -fx-background-color: #131217;
+    -fx-background-radius: 10 10 0 0;
+}
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+.table-view .column-header-background{
+    -fx-background-color: #131217;
+    -fx-background-radius: 10 10 0 0;
+}
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-padding: 8;
+}
+.table-view .filler{
+    -fx-background-color: #131217;
+    -fx-background-radius: 0 10 0 0;
+}
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-pref-height: 35;
+}
+.table-view .table-cell{
+    -fx-text-fill: white;
+    -fx-padding: 8;
+}
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #202128;
+    -fx-table-cell-border-color:#37383f;
+}
+.table-row-cell:selected {
+    -fx-background-color: -fx-table-cell-border-color, #26272e;
+}
+.table-view > .virtual-flow > .scroll-bar:vertical,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track-background, 
+.table-view > .virtual-flow > .scroll-bar:horizontal,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track-background {
+    -fx-background-color: #202128;
+    -fx-border-color: transparent;
+    -fx-border-width: 1;
+}
+.table-view > .virtual-flow > .scroll-bar > .increment-button, 
+.table-view > .virtual-flow > .scroll-bar > .decrement-button {
+    -fx-opacity: 0;
+}
+.table-view .scroll-bar .thumb{        
+    -fx-background-color: #37383f;
+}
+.table-view .column-drag-header{
+    -fx-background-color: #202128;
+}
+.table-view .column-resize-line{
+    -fx-background-color: #37383f;
+    -fx-border-width: 0;
+}
+.table-view .placeholder .label{
+    -fx-text-fill: white;
+}
+
+/*--------BUTTON--------*/
+.button.table.more
+{
+    -fx-background-color: #131217;
+    -fx-background-radius: 0 0 10 10;
+    
+    -fx-border-color: #37383f #131217 #131217;
+    -fx-border-width: 1 1 1 1;
+    -fx-border-radius: 0 0 10 10;
+
+    -fx-pref-height: 30;
+    -fx-min-height: 30;
+    -fx-max-height: 30;
+}
+.button.table.more:hover
+{
+    -fx-background-color: #25262b;
+}
+.button.table.more:disabled
+{
+    -fx-background-color: #131217;
+    -fx-text-fill: #131217;
+    -fx-opacity: 1.0;
+}

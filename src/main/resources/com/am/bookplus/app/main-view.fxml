@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<HBox prefHeight="452.0" prefWidth="736.0" styleClass="main" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.am.bookplus.app.controller.MainController">
+   <children>
+      <VBox alignment="TOP_CENTER" minWidth="224.0" prefWidth="224.0" spacing="20.0" styleClass="sidebar">
+          <padding>
+              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+          </padding>
+         <children>
+            <Button fx:id="btn_books" alignment="TOP_LEFT" graphicTextGap="20.0" mnemonicParsing="false" onMouseClicked="#btn_books_click" prefHeight="0.0" prefWidth="185.0" text="Books" textFill="#504f54">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="sidebar" />
+                  <String fx:value="books" />
+               </styleClass></Button>
+            <Button fx:id="btn_members" alignment="TOP_LEFT" graphicTextGap="20.0" mnemonicParsing="false" onMouseClicked="#btn_members_click" prefHeight="0.0" prefWidth="185.0" text="Students" textFill="#504f54">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="sidebar" />
+                  <String fx:value="members" />
+               </styleClass>
+            </Button>
+            <Button fx:id="btn_register" alignment="TOP_LEFT" graphicTextGap="20.0" mnemonicParsing="false" onMouseClicked="#btn_register_click" prefHeight="44.0" prefWidth="185.0" text="Issue &amp; Return" textFill="#504f54">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="sidebar" />
+                  <String fx:value="register" />
+               </styleClass>
+            </Button>
+            <Button fx:id="btn_settings" alignment="TOP_LEFT" graphicTextGap="20.0" mnemonicParsing="false" onMouseClicked="#btn_settings_click" prefHeight="0.0" prefWidth="185.0" text="Settings" textFill="#504f54">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="sidebar" />
+                  <String fx:value="settings" />
+               </styleClass>
+            </Button>
+         </children>
+      </VBox>
+      <VBox fx:id="main_container" alignment="TOP_CENTER" styleClass="content" HBox.hgrow="ALWAYS" />
+   </children>
+   <stylesheets>
+      <URL value="@style/main.css" />
+      <URL value="@style/sidebar.css" />
+   </stylesheets>
+</HBox>

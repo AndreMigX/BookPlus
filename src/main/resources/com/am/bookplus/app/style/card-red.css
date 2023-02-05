@@ -1,0 +1,27 @@
+.button.fab
+{
+    -fx-background-color: #e14847;
+}
+.button.fab:hover
+{
+    -fx-background-color: #e14847;
+}
+
+.label.header
+{
+    -fx-graphic: url('../img/icn_red_dot.png');
+}
+
+.text-field.error
+{
+    -fx-border-color: #e14847;
+}
+.text-field.not-editable
+{
+    -fx-text-fill: #B2B2B2;
+}
+
+.label.log.error
+{
+    -fx-text-fill: #e14847;
+}

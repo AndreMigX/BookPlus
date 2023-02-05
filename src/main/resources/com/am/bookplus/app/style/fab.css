@@ -1,0 +1,55 @@
+.button.fab
+{
+    -fx-background-radius: 150;
+
+    -fx-border-width: 0;
+
+    -fx-pref-height: 50;
+    -fx-min-height: 50;
+    -fx-max-height: 50;
+
+    -fx-min-width: 50;
+
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 10, 0, 0, 5);
+
+    -fx-padding: 0;
+}
+.button.fab:focus
+{
+    -fx-border-width: 0;
+}
+.button.fab.add
+{
+    -fx-pref-width: 50;
+    -fx-max-width: 50;
+
+    -fx-graphic: url('../img/icn_add.png');
+}
+.button.fab.search
+{
+    -fx-pref-width: 50;
+    -fx-max-width: 50;
+
+    -fx-graphic: url('../img/icn_search.png');
+}
+.button.fab.delete
+{
+    -fx-pref-width: 50;
+    -fx-max-width: 50;
+
+    -fx-graphic: url('../img/icn_delete.png');
+}
+.button.fab.save
+{
+    -fx-pref-width: 50;
+    -fx-max-width: 50;
+
+    -fx-graphic: url('../img/icn_save.png');
+}
+.button.fab.return
+{
+    -fx-pref-width: 50;
+    -fx-max-width: 50;
+
+    -fx-graphic: url('../img/icn_return.png');
+}

@@ -1,0 +1,126 @@
+.sidebar
+{
+    -fx-background-color: #131217;
+}
+
+/*--------BUTTON--------*/
+.button.sidebar.books
+{
+    -fx-graphic: url('../img/side_bar_books.png');
+
+    -fx-border-color: #00000000;
+    -fx-background-color: #00000000;
+
+    -fx-padding: 5;
+
+    -fx-text-fill: #504f54;
+}
+.button.sidebar.books:hover
+{
+    -fx-border-color: #252429;
+    -fx-border-width: 1;
+    -fx-border-radius: 10;
+}
+.button.sidebar.books.selected
+{
+    -fx-graphic: url('../img/side_bar_books_selected.png');
+
+    -fx-border-color: #252429;
+    -fx-border-width: 1;
+    -fx-border-radius: 10;
+
+    -fx-background-color: #1d1c23;
+    -fx-background-radius: 10;
+
+    -fx-text-fill: white;
+}
+.button.sidebar.members
+{
+    -fx-graphic: url('../img/side_bar_members.png');
+
+    -fx-border-color: #00000000;
+    -fx-background-color: #00000000;
+
+    -fx-padding: 5;
+
+    -fx-text-fill: #504f54;
+}
+.button.sidebar.members:hover
+{
+    -fx-border-color: #252429;
+    -fx-border-width: 1;
+    -fx-border-radius: 10;
+}
+.button.sidebar.members.selected
+{
+    -fx-graphic: url('../img/side_bar_members_selected.png');
+
+    -fx-border-color: #252429;
+    -fx-border-width: 1;
+    -fx-border-radius: 10;
+
+    -fx-background-color: #1d1c23;
+    -fx-background-radius: 10;
+
+    -fx-text-fill: white;
+}
+.button.sidebar.register
+{
+    -fx-graphic: url('../img/side_bar_register.png');
+
+    -fx-border-color: #00000000;
+    -fx-background-color: #00000000;
+
+    -fx-padding: 5;
+
+    -fx-text-fill: #504f54;
+}
+.button.sidebar.register:hover
+{
+    -fx-border-color: #252429;
+    -fx-border-width: 1;
+    -fx-border-radius: 10;
+}
+.button.sidebar.register.selected
+{
+    -fx-graphic: url('../img/side_bar_register_selected.png');
+
+    -fx-border-color: #252429;
+    -fx-border-width: 1;
+    -fx-border-radius: 10;
+
+    -fx-background-color: #1d1c23;
+    -fx-background-radius: 10;
+
+    -fx-text-fill: white;
+}
+.button.sidebar.settings
+{
+    -fx-graphic: url('../img/side_bar_settings.png');
+
+    -fx-border-color: #00000000;
+    -fx-background-color: #00000000;
+
+    -fx-padding: 5;
+
+    -fx-text-fill: #504f54;
+}
+.button.sidebar.settings:hover
+{
+    -fx-border-color: #252429;
+    -fx-border-width: 1;
+    -fx-border-radius: 10;
+}
+.button.sidebar.settings.selected
+{
+    -fx-graphic: url('../img/side_bar_settings_selected.png');
+
+    -fx-border-color: #252429;
+    -fx-border-width: 1;
+    -fx-border-radius: 10;
+
+    -fx-background-color: #1d1c23;
+    -fx-background-radius: 10;
+
+    -fx-text-fill: white;
+}

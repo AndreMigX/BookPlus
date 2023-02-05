@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" styleClass="card" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.am.bookplus.app.controller.register.RegisterCard">
+   <children>
+      <TableView fx:id="register_table" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <contextMenu>
+            <ContextMenu>
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#copy_isbn_click" text="Copy ISBN" />
+                  <MenuItem mnemonicParsing="false" onAction="#copy_student_id_click" text="Copy Student ID" />
+                  <MenuItem mnemonicParsing="false" onAction="#refresh_click" text="Refresh" />
+              </items>
+            </ContextMenu>
+         </contextMenu></TableView>
+      <Button fx:id="btn_load_more" disable="true" mnemonicParsing="false" onMouseClicked="#btn_load_more_click" prefHeight="30.0" text="Load More" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <styleClass>
+            <String fx:value="table" />
+            <String fx:value="more" />
+            <String fx:value="disabled" />
+         </styleClass>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Button>
+      <VBox fx:id="cover_downloading" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="cover" visible="false" AnchorPane.bottomAnchor="31.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="35.0">
+         <children>
+            <ProgressIndicator />
+            <Label text="Downloading..." textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Calibri" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+         <padding>
+            <Insets bottom="35.0" top="18.0" />
+         </padding>
+      </VBox>
+      <VBox fx:id="cover_download_error" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="cover" visible="false" AnchorPane.bottomAnchor="31.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="35.0">
+         <children>
+            <Label text="An error occurred" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Calibri" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </Label>
+            <Button mnemonicParsing="false" onMouseClicked="#btn_retry_click" prefWidth="100.0" text="Retry">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="8.0" top="8.0" />
+               </padding>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="35.0" top="18.0" />
+         </padding>
+      </VBox>
+   </children>
+   <stylesheets>
+      <URL value="@style/main.css" />
+      <URL value="@style/table.css" />
+   </stylesheets>
+</AnchorPane>
