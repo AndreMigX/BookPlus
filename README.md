@@ -1,2 +1,1 @@
-# BookPlus
-Library management software developed using JavaFX
+# BookPlus Spring Web Service
