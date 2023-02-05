@@ -1,1 +1,1 @@
-# BookPlus JavaFX Application
+# BookPlus Spring Web Service
