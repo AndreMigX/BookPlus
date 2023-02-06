@@ -4,7 +4,7 @@ The web service has been built with the Spring framework
 # Index
 <ul>
 <li><a href="#response-structure">Response structure</a></li>
-<li>APIs
+<li><a href="#apis">APIs</a>
   <ul>
     <li>Book Management
       <ul>
