@@ -34,9 +34,9 @@ The application has been built with JavaFX
 
 # Connection Settings
 <h2>Service</h2>
-The connection parameters are defined in the <i>Service</i> class:<br><br>
+The connection parameters are defined in the <i>com.am.bookplus.app.net.Service</i> class:<br><br>
 <img src="https://user-images.githubusercontent.com/115114976/217282266-19f6740c-4159-427f-80dd-6bcb15d2bda9.png" width=80%>
 
 <h2>DataBase</h2>
-The connection parameters are defined in the <i>DBSettings</i> class:<br><br>
+The connection parameters are defined in the <i>com.am.bookplus.app.net.DBSettings</i> class:<br><br>
 <img src="https://user-images.githubusercontent.com/115114976/217282323-62768a8c-0896-4c10-babb-503a077b3f94.png" width=80%>
